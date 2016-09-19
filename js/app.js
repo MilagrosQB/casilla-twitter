@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
 	var button = document.getElementById("tweet");
-	button.addEventListener("click", function() {
+	button.addEventListener("click", function(event) {
 			event.preventDefault();
 			var mensaje = document.getElementById("mensaje").value;
 			reTwitter(mensaje);
