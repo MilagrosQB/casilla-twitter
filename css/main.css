@@ -1,0 +1,34 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background: url(http://cdn.wallpapersafari.com/29/22/UNDju1.jpg) no-repeat;
+	background-position: cover;
+}
+
+p {
+	color: white;
+	font-size: 44px;
+	display: inline-block;
+}
+.img-twitter {
+	width: 40px;
+	height: 40px;
+	
+}
+
+.daddy {
+	color: black;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.daddy div {
+	width: 100%;
+	background: #E6E6E6 ;
+	margin: 10px 0px;
+	opacity: ;
+}
