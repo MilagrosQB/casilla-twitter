@@ -1,9 +1,10 @@
 window.addEventListener("load", function() {
 	var button = document.getElementById("tweet");
-	button.addEventListener("click", function(event) {
+	button.addEventListener("click", function() {
 			event.preventDefault();
 			var mensaje = document.getElementById("mensaje").value;
 			reTwitter(mensaje);
+			document.getElementById("mensaje").value = "";
 		});
 
 	function reTwitter(mensaje) {
