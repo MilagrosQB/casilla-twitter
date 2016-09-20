@@ -9,15 +9,23 @@ body {
 	background-position: cover;
 }
 
+form {
+	width: 400px;
+}
+
 p {
 	color: white;
 	font-size: 44px;
 	display: inline-block;
 }
+
+textarea {  
+  overflow:hidden;
+}
+
 .img-twitter {
 	width: 40px;
 	height: 40px;
-	
 }
 
 .daddy {
@@ -27,7 +35,7 @@ p {
 }
 
 .daddy div {
-	width: 100%;
+	width: 400px;
 	background: #E6E6E6 ;
 	margin: 10px 0px;
 	opacity: ;
@@ -35,4 +43,5 @@ p {
 
 #contador {
 	color: white;
+	font-size: 36px;
 }

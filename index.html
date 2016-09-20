@@ -7,16 +7,22 @@
 	<title>Imitación de Twitter</title>
 </head>
 <body>
-	<div class="container">
-		<img class="img-twitter" src="http://es.seaicons.com/wp-content/uploads/2016/03/Twitter-icon-20.png" alt="twitter">
-		<p>Twitter</p>
-		<form>
-			<textarea class="form-control" id="mensaje" rows="3"></textarea><br>
-			<div id="contador"></div><br>
-			<button type="submit" id="tweet" class="btn btn-primary">Twittear</button>
-		</form>
-		<br>
-		<div class="daddy" id="divdaddy"></div>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<img class="img-twitter" src="http://es.seaicons.com/wp-content/uploads/2016/03/Twitter-icon-20.png" alt="twitter">
+				<p>Haz tu comentario</p>	
+				<form>
+					<textarea placeholder="Escriba un texto" class="form-control" id="mensaje" rows="1"></textarea><br>
+					<div id="contador"></div><br>
+					<button type="submit" id="tweet" class="btn btn-primary">Twittear</button>
+				</form>
+				<br>
+				<div class="daddy" id="divdaddy"></div>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
 	</div>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
