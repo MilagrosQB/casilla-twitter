@@ -29,10 +29,16 @@ window.addEventListener("keydown",function(){
 	function contador(mensaje){
 		var limite = 140;
 		var longitud = document.getElementById("mensaje").value.length;
-		
 		document.getElementById("contador").innerHTML= limite-longitud;
+		if((limite-longitud) <= 130){
+			document.getElementById("contador").style.color = "#0000FF";
+		}
+		if((limite-longitud) <= 120){
+			document.getElementById("contador").style.color = "#A901DB";
+		}
 		if(longitud >= limite) {
 			button.disabled = true;
+			document.getElementById("contador").style.color = "#FF0000";
 		}
 	}
 });
