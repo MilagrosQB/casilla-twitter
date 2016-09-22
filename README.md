@@ -8,19 +8,16 @@ Versiones
 ![Twitter Uso](http://i66.tinypic.com/296d4cy.jpg)
 
 Versión 0.0.1:
-1. Diseñar un formulario que tenga un textarea y un botón.
-2. Agregar un evento de click al botón o un evento de submit al formulario.
-3. En el evento, coger el texto del textarea.
-4. Agregar el texto al HTML.
+Se puede añadir un comentario en la casilla, para que luego se visualize el comentario debajo de ella. 
+
 Versión 0.0.2:
-1. No ingresar texto vacío (deshabilitar el botón de enviar).
-2. Contar la cantidad de caracteres de forma regresiva.
+La cantidad máxima de caracteres que se puede ingresar en la casilla es de 140. Hay un contador en forma regresiva que ayuda a visualizar cuantos caracteres se va escribiendo. Además, se añadió que el botón de "Publicar", este deshabilitado cuando no haya ningún carácter digitado.
+
 Versión 0.0.3:
-1. Si pasa los 140 caracteres, deshabilitar el botón.
-2. Si pasa los 120 caracteres, mostrar el contado con con otro color.
-3. Si pasa los 130 caracteres mostrar el contador con otro color.
-4. Si pasa los 140 caracteres, mostrar el contador en negativo.
+Hay un cambio de color del contador, al llegar a los 130 caracteres, 120 caracteres, y al sobrepasarse los 140 caracteres, los valores cambiarán a números negativos, el contador se pintará de color rojo.
+
 Versión 0.0.4:
-1. Al presionar enter crece el texttarea de acuerdo al tamaño.
+Al presionar enter crece el textarea de acuerdo al tamaño.
+
 Versión 0.0.5:
-1. Si la cantidad de caracteres ingresados, supera al tamaño del textarea por defecto, debe de agregarse una línea más para que no aparezca el scroll.
+Si la cantidad de caracteres ingresados, supera al tamaño del textarea por defecto, la caja del textarea aumenta el tamaño.
